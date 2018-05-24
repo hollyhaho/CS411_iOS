@@ -1,0 +1,6 @@
+framework module Pods_Viet_NomsTests {
+  umbrella header "Pods-Viet NomsTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,808 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005236ED36AB65AB359E24A2 /* Pods_Viet_NomsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945975884DD02CC63DE1BFEA /* Pods_Viet_NomsUITests.framework */; };
+		638F758520534605001701B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F758420534605001701B3 /* AppDelegate.swift */; };
+		638F758A20534605001701B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638F758820534605001701B3 /* Main.storyboard */; };
+		638F758C20534605001701B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638F758B20534605001701B3 /* Assets.xcassets */; };
+		638F758F20534605001701B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638F758D20534605001701B3 /* LaunchScreen.storyboard */; };
+		638F759A20534605001701B3 /* Viet_NomsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F759920534605001701B3 /* Viet_NomsTests.swift */; };
+		638F75A520534605001701B3 /* Viet_NomsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F75A420534605001701B3 /* Viet_NomsUITests.swift */; };
+		638F75B32053461F001701B3 /* FoodItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F75B22053461F001701B3 /* FoodItemsViewController.swift */; };
+		638F75B52053463C001701B3 /* FoodItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F75B42053463C001701B3 /* FoodItemStore.swift */; };
+		638F75B720534981001701B3 /* FoodDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638F75B620534981001701B3 /* FoodDetailViewController.swift */; };
+		63F5494A2066CB4C00C435CA /* RestaurantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F549452066CB4B00C435CA /* RestaurantTableViewCell.swift */; };
+		63F5494B2066CB4C00C435CA /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F549462066CB4B00C435CA /* RestaurantViewController.swift */; };
+		63F5494C2066CB4C00C435CA /* RestaurantItemStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F549472066CB4B00C435CA /* RestaurantItemStore.swift */; };
+		63F5494D2066CB4C00C435CA /* RestaurantItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F549482066CB4C00C435CA /* RestaurantItem.swift */; };
+		63F5494E2066CB4C00C435CA /* RestaurantDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F549492066CB4C00C435CA /* RestaurantDetailViewController.swift */; };
+		8F71F829B252E1003FD19CC6 /* Pods_Viet_NomsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10EB48E101FB601891BD708 /* Pods_Viet_NomsTests.framework */; };
+		DA8E8E51852581371B5ADF00 /* Pods_Viet_Noms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A4F5B0FA61A5665E433FC9 /* Pods_Viet_Noms.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		638F759620534605001701B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 638F757920534605001701B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638F758020534605001701B3;
+			remoteInfo = "Viet Noms";
+		};
+		638F75A120534605001701B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 638F757920534605001701B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 638F758020534605001701B3;
+			remoteInfo = "Viet Noms";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2EFFA3058A3FE0C743EA0FA0 /* Pods-Viet NomsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viet NomsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viet NomsTests/Pods-Viet NomsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5EBC824CF7AA01BD158E6720 /* Pods-Viet NomsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viet NomsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viet NomsUITests/Pods-Viet NomsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		638F758120534605001701B3 /* Viet Noms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viet Noms.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638F758420534605001701B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		638F758920534605001701B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		638F758B20534605001701B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		638F758E20534605001701B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		638F759020534605001701B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638F759520534605001701B3 /* Viet NomsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viet NomsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638F759920534605001701B3 /* Viet_NomsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viet_NomsTests.swift; sourceTree = "<group>"; };
+		638F759B20534605001701B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638F75A020534605001701B3 /* Viet NomsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viet NomsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		638F75A420534605001701B3 /* Viet_NomsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viet_NomsUITests.swift; sourceTree = "<group>"; };
+		638F75A620534605001701B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638F75B22053461F001701B3 /* FoodItemsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemsViewController.swift; sourceTree = "<group>"; };
+		638F75B42053463C001701B3 /* FoodItemStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemStore.swift; sourceTree = "<group>"; };
+		638F75B620534981001701B3 /* FoodDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetailViewController.swift; sourceTree = "<group>"; };
+		63F549452066CB4B00C435CA /* RestaurantTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantTableViewCell.swift; sourceTree = "<group>"; };
+		63F549462066CB4B00C435CA /* RestaurantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		63F549472066CB4B00C435CA /* RestaurantItemStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantItemStore.swift; sourceTree = "<group>"; };
+		63F549482066CB4C00C435CA /* RestaurantItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantItem.swift; sourceTree = "<group>"; };
+		63F549492066CB4C00C435CA /* RestaurantDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantDetailViewController.swift; sourceTree = "<group>"; };
+		83CE1B078E918A00CA993384 /* Pods-Viet NomsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viet NomsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viet NomsTests/Pods-Viet NomsTests.release.xcconfig"; sourceTree = "<group>"; };
+		945975884DD02CC63DE1BFEA /* Pods_Viet_NomsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viet_NomsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3ABA4AE26B69BF28B0FFDC4 /* Pods-Viet NomsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viet NomsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viet NomsUITests/Pods-Viet NomsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0460C6861893E4788AD7776 /* Pods-Viet Noms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viet Noms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Viet Noms/Pods-Viet Noms.debug.xcconfig"; sourceTree = "<group>"; };
+		F10EB48E101FB601891BD708 /* Pods_Viet_NomsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viet_NomsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5A4F5B0FA61A5665E433FC9 /* Pods_Viet_Noms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viet_Noms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB93EB1584409C1E142C2EE0 /* Pods-Viet Noms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viet Noms.release.xcconfig"; path = "Pods/Target Support Files/Pods-Viet Noms/Pods-Viet Noms.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		638F757E20534605001701B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8E8E51852581371B5ADF00 /* Pods_Viet_Noms.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638F759220534605001701B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F71F829B252E1003FD19CC6 /* Pods_Viet_NomsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638F759D20534605001701B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005236ED36AB65AB359E24A2 /* Pods_Viet_NomsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14D68F9D8DA3509E02CF6037 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0460C6861893E4788AD7776 /* Pods-Viet Noms.debug.xcconfig */,
+				FB93EB1584409C1E142C2EE0 /* Pods-Viet Noms.release.xcconfig */,
+				2EFFA3058A3FE0C743EA0FA0 /* Pods-Viet NomsTests.debug.xcconfig */,
+				83CE1B078E918A00CA993384 /* Pods-Viet NomsTests.release.xcconfig */,
+				A3ABA4AE26B69BF28B0FFDC4 /* Pods-Viet NomsUITests.debug.xcconfig */,
+				5EBC824CF7AA01BD158E6720 /* Pods-Viet NomsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		638F757820534605001701B3 = {
+			isa = PBXGroup;
+			children = (
+				638F758320534605001701B3 /* Viet Noms */,
+				638F759820534605001701B3 /* Viet NomsTests */,
+				638F75A320534605001701B3 /* Viet NomsUITests */,
+				638F758220534605001701B3 /* Products */,
+				14D68F9D8DA3509E02CF6037 /* Pods */,
+				9833D8D81F85B4A8CCA44DA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		638F758220534605001701B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				638F758120534605001701B3 /* Viet Noms.app */,
+				638F759520534605001701B3 /* Viet NomsTests.xctest */,
+				638F75A020534605001701B3 /* Viet NomsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		638F758320534605001701B3 /* Viet Noms */ = {
+			isa = PBXGroup;
+			children = (
+				63F549442066CABE00C435CA /* Food */,
+				63F549432066CA9200C435CA /* Restaurant */,
+				638F758420534605001701B3 /* AppDelegate.swift */,
+				638F758820534605001701B3 /* Main.storyboard */,
+				638F758B20534605001701B3 /* Assets.xcassets */,
+				638F758D20534605001701B3 /* LaunchScreen.storyboard */,
+				638F759020534605001701B3 /* Info.plist */,
+			);
+			path = "Viet Noms";
+			sourceTree = "<group>";
+		};
+		638F759820534605001701B3 /* Viet NomsTests */ = {
+			isa = PBXGroup;
+			children = (
+				638F759920534605001701B3 /* Viet_NomsTests.swift */,
+				638F759B20534605001701B3 /* Info.plist */,
+			);
+			path = "Viet NomsTests";
+			sourceTree = "<group>";
+		};
+		638F75A320534605001701B3 /* Viet NomsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				638F75A420534605001701B3 /* Viet_NomsUITests.swift */,
+				638F75A620534605001701B3 /* Info.plist */,
+			);
+			path = "Viet NomsUITests";
+			sourceTree = "<group>";
+		};
+		63F549432066CA9200C435CA /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				63F549492066CB4C00C435CA /* RestaurantDetailViewController.swift */,
+				63F549482066CB4C00C435CA /* RestaurantItem.swift */,
+				63F549472066CB4B00C435CA /* RestaurantItemStore.swift */,
+				63F549452066CB4B00C435CA /* RestaurantTableViewCell.swift */,
+				63F549462066CB4B00C435CA /* RestaurantViewController.swift */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		63F549442066CABE00C435CA /* Food */ = {
+			isa = PBXGroup;
+			children = (
+				638F75B22053461F001701B3 /* FoodItemsViewController.swift */,
+				638F75B42053463C001701B3 /* FoodItemStore.swift */,
+				638F75B620534981001701B3 /* FoodDetailViewController.swift */,
+			);
+			path = Food;
+			sourceTree = "<group>";
+		};
+		9833D8D81F85B4A8CCA44DA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4F5B0FA61A5665E433FC9 /* Pods_Viet_Noms.framework */,
+				F10EB48E101FB601891BD708 /* Pods_Viet_NomsTests.framework */,
+				945975884DD02CC63DE1BFEA /* Pods_Viet_NomsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		638F758020534605001701B3 /* Viet Noms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638F75A920534605001701B3 /* Build configuration list for PBXNativeTarget "Viet Noms" */;
+			buildPhases = (
+				F6CADABE4E6D8E9F09CEF663 /* [CP] Check Pods Manifest.lock */,
+				638F757D20534605001701B3 /* Sources */,
+				638F757E20534605001701B3 /* Frameworks */,
+				638F757F20534605001701B3 /* Resources */,
+				2202AC3FAD2CB1697203F87C /* [CP] Embed Pods Frameworks */,
+				32ACF0D1FCB46EFBE60EC257 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viet Noms";
+			productName = "Viet Noms";
+			productReference = 638F758120534605001701B3 /* Viet Noms.app */;
+			productType = "com.apple.product-type.application";
+		};
+		638F759420534605001701B3 /* Viet NomsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638F75AC20534605001701B3 /* Build configuration list for PBXNativeTarget "Viet NomsTests" */;
+			buildPhases = (
+				90139575CFD8C4700448DA68 /* [CP] Check Pods Manifest.lock */,
+				638F759120534605001701B3 /* Sources */,
+				638F759220534605001701B3 /* Frameworks */,
+				638F759320534605001701B3 /* Resources */,
+				FA7E24A55EC7FAFF30433E4A /* [CP] Embed Pods Frameworks */,
+				BCD12BC44AE9A0152FD0A182 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				638F759720534605001701B3 /* PBXTargetDependency */,
+			);
+			name = "Viet NomsTests";
+			productName = "Viet NomsTests";
+			productReference = 638F759520534605001701B3 /* Viet NomsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		638F759F20534605001701B3 /* Viet NomsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 638F75AF20534605001701B3 /* Build configuration list for PBXNativeTarget "Viet NomsUITests" */;
+			buildPhases = (
+				B94ACCA60F0ED663C04B9574 /* [CP] Check Pods Manifest.lock */,
+				638F759C20534605001701B3 /* Sources */,
+				638F759D20534605001701B3 /* Frameworks */,
+				638F759E20534605001701B3 /* Resources */,
+				400D4C2CD907A406A78621A3 /* [CP] Embed Pods Frameworks */,
+				47004896BFFE282368C8631C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				638F75A220534605001701B3 /* PBXTargetDependency */,
+			);
+			name = "Viet NomsUITests";
+			productName = "Viet NomsUITests";
+			productReference = 638F75A020534605001701B3 /* Viet NomsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		638F757920534605001701B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Holly Ho";
+				TargetAttributes = {
+					638F758020534605001701B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					638F759420534605001701B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 638F758020534605001701B3;
+					};
+					638F759F20534605001701B3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 638F758020534605001701B3;
+					};
+				};
+			};
+			buildConfigurationList = 638F757C20534605001701B3 /* Build configuration list for PBXProject "Viet Noms" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 638F757820534605001701B3;
+			productRefGroup = 638F758220534605001701B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				638F758020534605001701B3 /* Viet Noms */,
+				638F759420534605001701B3 /* Viet NomsTests */,
+				638F759F20534605001701B3 /* Viet NomsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		638F757F20534605001701B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638F758F20534605001701B3 /* LaunchScreen.storyboard in Resources */,
+				638F758C20534605001701B3 /* Assets.xcassets in Resources */,
+				638F758A20534605001701B3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638F759320534605001701B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638F759E20534605001701B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2202AC3FAD2CB1697203F87C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Viet Noms/Pods-Viet Noms-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viet Noms/Pods-Viet Noms-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32ACF0D1FCB46EFBE60EC257 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viet Noms/Pods-Viet Noms-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		400D4C2CD907A406A78621A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viet NomsUITests/Pods-Viet NomsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47004896BFFE282368C8631C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viet NomsUITests/Pods-Viet NomsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90139575CFD8C4700448DA68 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viet NomsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B94ACCA60F0ED663C04B9574 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viet NomsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD12BC44AE9A0152FD0A182 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viet NomsTests/Pods-Viet NomsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6CADABE4E6D8E9F09CEF663 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viet Noms-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA7E24A55EC7FAFF30433E4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Viet NomsTests/Pods-Viet NomsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		638F757D20534605001701B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63F5494A2066CB4C00C435CA /* RestaurantTableViewCell.swift in Sources */,
+				63F5494B2066CB4C00C435CA /* RestaurantViewController.swift in Sources */,
+				638F75B32053461F001701B3 /* FoodItemsViewController.swift in Sources */,
+				638F75B52053463C001701B3 /* FoodItemStore.swift in Sources */,
+				638F758520534605001701B3 /* AppDelegate.swift in Sources */,
+				63F5494C2066CB4C00C435CA /* RestaurantItemStore.swift in Sources */,
+				638F75B720534981001701B3 /* FoodDetailViewController.swift in Sources */,
+				63F5494E2066CB4C00C435CA /* RestaurantDetailViewController.swift in Sources */,
+				63F5494D2066CB4C00C435CA /* RestaurantItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638F759120534605001701B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638F759A20534605001701B3 /* Viet_NomsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		638F759C20534605001701B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638F75A520534605001701B3 /* Viet_NomsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		638F759720534605001701B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 638F758020534605001701B3 /* Viet Noms */;
+			targetProxy = 638F759620534605001701B3 /* PBXContainerItemProxy */;
+		};
+		638F75A220534605001701B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 638F758020534605001701B3 /* Viet Noms */;
+			targetProxy = 638F75A120534605001701B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		638F758820534605001701B3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				638F758920534605001701B3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		638F758D20534605001701B3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				638F758E20534605001701B3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		638F75A720534605001701B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		638F75A820534605001701B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		638F75AA20534605001701B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0460C6861893E4788AD7776 /* Pods-Viet Noms.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYZ8NK3BYT;
+				INFOPLIST_FILE = "Viet Noms/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "holly.Viet-Noms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		638F75AB20534605001701B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB93EB1584409C1E142C2EE0 /* Pods-Viet Noms.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NYZ8NK3BYT;
+				INFOPLIST_FILE = "Viet Noms/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "holly.Viet-Noms";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		638F75AD20534605001701B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFFA3058A3FE0C743EA0FA0 /* Pods-Viet NomsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Viet NomsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "holly.Viet-NomsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viet Noms.app/Viet Noms";
+			};
+			name = Debug;
+		};
+		638F75AE20534605001701B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CE1B078E918A00CA993384 /* Pods-Viet NomsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Viet NomsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "holly.Viet-NomsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viet Noms.app/Viet Noms";
+			};
+			name = Release;
+		};
+		638F75B020534605001701B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3ABA4AE26B69BF28B0FFDC4 /* Pods-Viet NomsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Viet NomsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "holly.Viet-NomsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Viet Noms";
+			};
+			name = Debug;
+		};
+		638F75B120534605001701B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EBC824CF7AA01BD158E6720 /* Pods-Viet NomsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Viet NomsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "holly.Viet-NomsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Viet Noms";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		638F757C20534605001701B3 /* Build configuration list for PBXProject "Viet Noms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638F75A720534605001701B3 /* Debug */,
+				638F75A820534605001701B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638F75A920534605001701B3 /* Build configuration list for PBXNativeTarget "Viet Noms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638F75AA20534605001701B3 /* Debug */,
+				638F75AB20534605001701B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638F75AC20534605001701B3 /* Build configuration list for PBXNativeTarget "Viet NomsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638F75AD20534605001701B3 /* Debug */,
+				638F75AE20534605001701B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		638F75AF20534605001701B3 /* Build configuration list for PBXNativeTarget "Viet NomsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				638F75B020534605001701B3 /* Debug */,
+				638F75B120534605001701B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 638F757920534605001701B3 /* Project object */;
+}
